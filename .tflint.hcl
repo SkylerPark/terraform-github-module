@@ -50,15 +50,3 @@ rule "terraform_unused_required_providers" {
 rule "terraform_standard_module_structure" {
   enabled = false
 }
-
-###################################################
-# Rule Sets - AWS
-###################################################
-
-plugin "aws" {
-  source  = "github.com/terraform-linters/tflint-ruleset-aws"
-  version = "0.21.1"
-
-  enabled    = true
-  deep_check = false
-}
