@@ -1,13 +1,11 @@
-provider "github" {}
-
-module "terraform-template" {
+module "repo" {
   source      = "../../modules/repository"
-  name        = "terraform-template"
+  name        = "terraform-test"
   description = ""
 
-  is_template = true
+  is_template = false
 
-  visibility = "private"
+  visibility = "public"
 
   template = {
     init_readme = true

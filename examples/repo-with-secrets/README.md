@@ -1,4 +1,4 @@
-# private-repository
+# repo-with-secrets
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
@@ -16,7 +16,8 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_terraform-template"></a> [terraform-template](#module\_terraform-template) | ../../modules/repository | n/a |
+| <a name="module_repo"></a> [repo](#module\_repo) | ../../modules/repository | n/a |
+| <a name="module_secrets"></a> [secrets](#module\_secrets) | ../../modules/github-action | n/a |
 
 ## Resources
 
